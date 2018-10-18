@@ -1,0 +1,137 @@
+
+body {
+  background: url(Pictures/ACcat.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cat-div {
+  position: relative;
+
+  top: 10px;
+  bottom: 400px;
+  right:0%;
+  left:2%;
+}
+
+#catdance-div {
+  position: relative;
+  top:0px;
+  bottom: 1000px;
+  right:0%;
+  left: 35%;
+}
+
+#cathappy-div {
+  position: relative;
+  top: 0px;
+  bottom: 1000px;
+  right:0%;
+  left: 60%;
+}
+
+#dreamCat-div {
+  position: relative;
+  top: 10px;
+  bottom: 2000px;
+  right: 20%;
+  left: 90%;
+}
+
+
+#pear-div {
+  position: absolute;
+  top: 900px;
+  bottom: 0px;
+  right: 0px;
+  left: 100px;
+  transform: scale(.7)
+
+}
+
+#apple-div {
+  position: absolute;
+  top: 300px;
+  bottom: 0px;
+  right: 0px;
+  left: 800px;
+  transform: scale(.5)
+}
+
+#leaf-div {
+  position: absolute;
+  top: 800px;
+  bottom: 0px;
+  right: 0px;
+  left: 1450px;
+  transform: scale(.5);
+}
+
+#tree-div {
+  position: absolute;
+  top: 1300px;
+  bottom: 0px;
+  right: 0px;
+  left: 1950px;
+}
+
+#petals-div {
+  position: absolute;
+  top: 1500px;
+  bottom: 0px;
+  right: 0px;
+  left: 1800px;
+  transform: scale(1.5);
+
+}
+
+#flowy-div {
+  position: absolute;
+  top: 0px;
+  bottom: 500px;
+  right: 3000px;
+  left: 50px;
+  transform: scale(.4)
+}
+
+#gyroid-div {
+  position: absolute;
+  top: 1740px;
+  bottom: 500px;
+  right: 3000px;
+  left: 920px;
+  transform: scale(1)
+}
+
+
+
+
+
+
+
+
+
+#present-div {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 50px;
+
+  transition: transform is linear;
+
+  animation: movePresent 10s Infinite linear;
+  animation-direction: normal;
+
+}
+
+@keyframes movePresent {
+ 0% {
+   margin-left: -25%
+ }
+ 100% {
+   margin-left: 100%
+ }
+}
